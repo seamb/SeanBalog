@@ -1,0 +1,264 @@
+@import url('https://use.typekit.net/cea6eex.css');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;900&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #434242;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Playfair Display', serif; */
+  letter-spacing: 0.1rem;
+  line-height: 1.25;
+  height: 100%;
+  margin: 0, auto;
+  padding: 0px;
+  background-color: #f1eeec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f1eeec;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: bely-display, sans-serif;
+  font-size: 35pt;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.65rem;
+  margin-top: -30px;
+  margin-left: 1.25rem;
+}
+
+p {
+  padding: 5rem 5rem;
+  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
+  font-size: 14pt;
+  color: rgb(63, 63, 63);
+}
+strong {
+  font-family: 'DM Serif Display', serif;
+  font-size: 40pt;
+  margin-bottom: -25px;
+  line-height: 1.5;
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.banner {
+  height: 50em;
+  border-top: #9f9b48 solid 100px;
+}
+.header-img {
+  background-image: linear-gradient(
+      rgba(238, 235, 235, 0.6),
+      rgba(238, 235, 235, 0.6)
+    ),
+    url('backround.png');
+  /* Set a specific height */
+  height: 50rem;
+  width: 100vw;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* left: -0.1px; */
+}
+.nav-link:hover {
+  color: #9f9b48;
+}
+#hero-block {
+  background-color: #cccbaa;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10% 4% 3% 2%;
+  font-size: 14pt;
+  text-align: justify;
+  box-shadow: 5px 5px 15px rgb(161, 161, 161);
+  align-items: center;
+  margin-top: 170px;
+}
+
+#beige-block {
+  background-color: #cccbaa;
+  padding: 4rem 1rem 4rem 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgb(161, 161, 161);
+  width: 100vw;
+}
+.photo-quote {
+  margin-left: 50px;
+}
+.greet {
+  margin-bottom: 20px;
+}
+.mePic {
+  height: 40vh;
+  border-radius: 3%;
+  box-shadow: 5px 5px 15px rgb(97, 97, 97);
+}
+
+.welcome-quote {
+  flex-direction: column;
+  font-size: 11pt;
+  color: #7a7e3c;
+  line-height: 1.5;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 100px;
+}
+.project-sec strong {
+  margin-bottom: 100px;
+}
+
+.project-card-one {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 1.75%;
+  width: 100vw;
+}
+.project-card-two {
+  display: flex;
+  align-items: center;
+  padding: 1.75%;
+  background-color: #cccbaa;
+  width: 100vw;
+}
+
+.project-info {
+  margin: 2.5% 5% 10% 10%;
+}
+
+.project-image {
+  /* border: red 4px solid; */
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card-block {
+  margin-top: 100px;
+  /* margin-right: 2%; */
+  border-radius: 7%;
+  height: 150px;
+}
+
+.project-app img {
+  height: 225px;
+  border-radius: 3%;
+  box-shadow: 5px 5px 15px rgb(97, 97, 97);
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
+
+.Footer_Box {
+  display: flex;
+  background: #c3c2a1;
+  justify-content: space-between;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+}
+
+.contact ul {
+  margin-bottom: 5%;
+  list-style-type: none;
+  justify-content: center;
+  text-align: center;
+  font-size: 18pt;
+  color: #434242;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 36px;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+.contact {
+  line-height: 60px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 750px) {
+  body {
+    padding-right: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    font-size: 10pt;
+    text-align: center;
+  }
+  .header-img {
+    background-image: linear-gradient(
+        rgba(238, 235, 235, 0.6),
+        rgba(238, 235, 235, 0.6)
+      ),
+      url('backround.png');
+    /* Set a specific height */
+    height: 45em;
+    width: 100vw;
+  }
+  #hero-block {
+    background-color: #cccbaa;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 50px;
+    width: 100vw;
+  }
+  .mePic {
+    height: 30vh;
+  }
+  .greet {
+    text-align: left;
+    padding: 60px 0px 5px 0px;
+    margin-top: 80px;
+  }
+  .about-me,
+  p {
+    padding: 5% 8%;
+  }
+  .projects {
+    padding-top: 200px;
+  }
+  .project-info {
+    padding-right: 50px;
+  }
+  .project-card-one,
+  .project-card-two {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .other {
+    margin-top: 150px;
+  }
+  #beige-block strong {
+    font-size: 45px;
+    width: 100vw;
+  }
+}
