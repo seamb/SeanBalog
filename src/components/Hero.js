@@ -29,6 +29,7 @@ const Hero = ({ selfsq }) => {
           <div className='greet'>
             <strong>Hello! </strong>
           </div>
+
           <img className='mePic' src={selfsq} alt='seanB' />
 
           <br />

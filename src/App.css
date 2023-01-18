@@ -242,7 +242,10 @@ strong {
   .about-me,
   p {
     padding: 5% 8%;
+    font-size: 11pt;
+    text-align: left;
   }
+
   .projects {
     padding-top: 200px;
   }
@@ -255,10 +258,18 @@ strong {
     flex-direction: column-reverse;
   }
   .other {
-    margin-top: 150px;
+    margin-top: 160px;
   }
   #beige-block strong {
     font-size: 45px;
     width: 100vw;
+  }
+  .welcome-quote {
+    flex-direction: column;
+    font-size: 8pt;
+    color: #7a7e3c;
+    line-height: 1.5;
+    text-align: center;
+    padding-right: 80px;
   }
 }
