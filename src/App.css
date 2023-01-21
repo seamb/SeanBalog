@@ -201,8 +201,16 @@ strong {
 .contact {
   line-height: 60px;
 }
+@media screen and (max-width: 950px) {
+  #hero-block {
+    background-color: #cccbaa;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 50px;
+    width: 100vw;
+  }
+}
 
-/* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 750px) {
   body {
     padding-right: 20px;
