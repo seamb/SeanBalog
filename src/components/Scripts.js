@@ -1,12 +1,12 @@
 import React from 'react';
 
-const AppScripts = ({ appScripts }) => {
+const Scripts = ({ scriptSS }) => {
   return (
     <>
       <div id='app-scripts'>
         <strong>Google AppSripts</strong>
         <br />
-        <img src={appScripts} className='scriptPic' alt='app' />
+        <img src={scriptSS} className='scriptPic' alt='app' />
         <br />
         <div className='project-info' id='wrk_desc'>
           <h3>daysBetween</h3>
@@ -38,5 +38,4 @@ const AppScripts = ({ appScripts }) => {
     </>
   );
 };
-
-export default AppScripts;
+export default Scripts;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = ({ selfsq }) => {
+const Hero = ({ selfsq, teckstack }) => {
   return (
     <>
       <div className='about' id='hero-block'>
@@ -47,6 +47,9 @@ const Hero = ({ selfsq }) => {
             little slice of the internet, <br />I am so happy to have you!
           </div>
         </div>
+      </div>
+      <div id='techex'>
+        <img className='techstack' src={teckstack} alt='applogos' />
       </div>
     </>
   );

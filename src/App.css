@@ -45,7 +45,7 @@ h1 {
 } */
 
 p {
-  padding: 5rem 5rem;
+  padding: 2rem 5rem;
   font-family: 'Playfair Display', serif;
   font-family: 'DM Serif Display', serif;
   font-size: 14pt;
@@ -83,11 +83,15 @@ strong {
   color: #9f9b48;
 }
 
+#techex img {
+  width: 100vw;
+}
+
 #hero-block {
-  background-color: #d6d6c2;
+  background-color: #dedecf;
   display: flex;
   flex-direction: row-reverse;
-  padding: 20% 4% 3% 2%;
+  padding: 15% 4% 3% 2%;
   font-size: 14pt;
   text-align: justify;
   box-shadow: 5px 5px 15px rgb(161, 161, 161);
@@ -100,7 +104,7 @@ strong {
 }
 #beige-block {
   /* background-color: #cccbaa; */
-  background-color: #d6d6c2;
+  background-color: #dedecf;
   padding: 5% 4% 5% 2%;
   margin-bottom: 2rem;
   display: flex;
@@ -110,12 +114,12 @@ strong {
 }
 
 #wrkflows {
-  padding: 15% 4% 3% 2%;
+  padding: 10% 4% 3% 2%;
 }
 #app-scripts {
   /* background-color: #cccbaa; */
-  background-color: #d6d6c2;
-  padding: 15% 4% 3% 2%;
+  background-color: #dedecf;
+  padding: 10% 2% 1% 7%;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -172,7 +176,7 @@ strong {
   align-items: center;
   padding: 1.75%;
   /* background-color: #cccbaa; */
-  background-color: #d6d6c2;
+  background-color: #dedecf;
   width: 100vw;
 }
 
@@ -206,7 +210,7 @@ strong {
 .Footer_Box {
   display: flex;
   /* background: #c3c2a1; */
-  background-color: #d6d6c2;
+  background-color: #dedecf;
   justify-content: space-between;
   left: 0;
   right: 0px;
@@ -240,7 +244,7 @@ strong {
 
 @media screen and (max-width: 950px) {
   #hero-block {
-    background-color: #cccbaa;
+    background-color: #dedecf;
     display: flex;
     flex-direction: column-reverse;
     padding-right: 50px;
@@ -273,7 +277,7 @@ strong {
     width: 100vw;
   }
   #hero-block {
-    background-color: #cccbaa;
+    background-color: #dedecf;
     display: flex;
     flex-direction: column-reverse;
     padding-right: 50px;
