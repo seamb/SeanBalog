@@ -6,7 +6,9 @@ const NavBar = () => {
     <div className='Nav'>
       <div className='title'>
         <div className='name'>sean balog</div>
-        <div className='profess'>web developer</div>
+        <div className='profess'>
+          technologist | CRM Super Admin | Sales Enablement Specialist
+        </div>
       </div>
       <ul className='nav-menu'>
         <li>
