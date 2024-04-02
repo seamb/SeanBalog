@@ -19,35 +19,44 @@
 
 .name {
   font-family: bely-display, sans-serif;
-  font-size: 30pt;
+  font-size: 40pt;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.65rem;
-  padding-top: 5px;
-  padding-left: 20px;
+  padding-top: 20px;
+  padding-left: 90px;
 }
 .profess {
-  font-size: 14pt;
-  letter-spacing: 0.5rem;
+  font-size: 10pt;
+  /* letter-spacing: 0.5rem; */
   text-align: left;
   margin-right: 25px;
-  margin-bottom: 25px;
-  padding-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 90px;
   color: #9f9b48;
 }
 
 .nav-menu {
   display: flex;
   gap: 50px;
-  padding: 50px 50px 50px 0px;
+  padding: 100px 100px 0px 0px;
+  font-size: 10pt;
 }
 .burger-menu {
   display: none;
 }
+
+/*************************************************************/
+
+/*************************************************************/
+
+/*************************************************************/
+
 @media screen and (max-width: 768px) {
   .nav-menu {
     display: none;
   }
+
   .right-nav {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -55,28 +64,29 @@
     width: 5vw;
     right: 2%;
     top: 12%;
-    height: 500px;
+    /* height: 500px; */
     background-color: rgb(249, 235, 218);
-    background-color: rgb(205, 177, 125);
+    background-color: #517258;
+    color: black;
     position: fixed;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     padding-left: 10vw;
   }
   .burger-menu {
-    margin-top: 75px;
+    margin-top: 60px;
     display: flex;
-    gap: 40px;
-    font-size: 10pt;
+    gap: 35px;
+    font-size: 8pt;
   }
   .nav-link {
-    color: #9f9b48;
     justify-content: space-between;
     line-height: 50px;
   }
   .name {
     font-family: bely-display, sans-serif;
-    font-size: 26pt;
+    font-size: 40pt;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.65rem;
@@ -85,8 +95,8 @@
     text-align: center;
   }
   .profess {
-    font-size: 10pt;
-    letter-spacing: 0.5rem;
+    font-size: 9pt;
+    /* letter-spacing: 0.5rem; */
     text-align: center;
     margin-right: 25px;
     margin-bottom: 25px;

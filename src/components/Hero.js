@@ -6,11 +6,20 @@ const Hero = ({ selfsq }) => {
       <div className='about' id='hero-block'>
         <div className='about-me'>
           <p>
-            Sean Balog is brand new to the world of full-stack development
-            having completed Fullstack Academy's Web Development Bootcamp in
-            Spring of 2022. An artist and design enthusiast, Sean is naturally
-            drawn to front-end development and aims to create beautiful, well
-            thought applications.
+            As a HubSpot CRM Admin with a keen eye for detail and a knack for
+            automation, Sean has a proven track record of streamlining processes
+            and driving efficiency within sales, marketing, and support teams.
+            With certifications in Integrating With HubSpot I: Foundations and
+            completion of the HubSpot Super Admin Bootcamp, Sean stays at the
+            forefront of industry trends and advancements, ensuring that her
+            skills remain sharp and relevant.
+            <br />
+            <br />
+            A seasoned professional with a passion for both innovation in
+            technology and creative problem solving. Her dedication to
+            continuous learning extends beyond the professional realm having
+            completed Fullstack Academy's Web Development Bootcamp in Spring of
+            2022.
             <br />
             {/* <br />
                 Prior to tech, Sean spent almost a decade in Colorado's cannabis
@@ -21,8 +30,8 @@ const Hero = ({ selfsq }) => {
                 <br /> */}
             <br />
             Outside of work you'll find Sean singing along to 90's hits,
-            spoiling her mini schnauzer and taking in views of the Rocky
-            Mountains with her partner.
+            spoiling her mini schnauzer and taking in views of Denver and the
+            Rocky Mountains with her partner.
           </p>
         </div>
         <div className='photo-quote'>

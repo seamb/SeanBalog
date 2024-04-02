@@ -1,6 +1,7 @@
 @import url('https://use.typekit.net/cea6eex.css');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;900&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -13,25 +14,26 @@ body {
   /* font-family: 'Playfair Display', serif; */
   letter-spacing: 0.1rem;
   line-height: 1.25;
-  height: 100%;
+  /* height: 100%;
   margin: 0, auto;
   padding: 0px;
   background-color: #f1eeec;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 header {
   background-color: #f1eeec;
 }
+
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
-
+/* 
 h1 {
   font-family: bely-display, sans-serif;
   font-size: 35pt;
@@ -40,7 +42,7 @@ h1 {
   letter-spacing: 0.65rem;
   margin-top: -30px;
   margin-left: 1.25rem;
-}
+} */
 
 p {
   padding: 5rem 5rem;
@@ -51,8 +53,7 @@ p {
 }
 strong {
   font-family: 'DM Serif Display', serif;
-  font-size: 40pt;
-  margin-bottom: -25px;
+  font-size: 30pt;
   line-height: 1.5;
   font-family: bely-display, sans-serif;
   font-weight: 400;
@@ -81,26 +82,46 @@ strong {
 .nav-link:hover {
   color: #9f9b48;
 }
+
 #hero-block {
-  background-color: #cccbaa;
+  background-color: #d6d6c2;
   display: flex;
   flex-direction: row-reverse;
-  padding: 10% 4% 3% 2%;
+  padding: 20% 4% 3% 2%;
   font-size: 14pt;
   text-align: justify;
   box-shadow: 5px 5px 15px rgb(161, 161, 161);
   align-items: center;
-  margin-top: 170px;
 }
-
+#wrk_desc {
+  font-size: 10pt;
+  font-family: 'Poppins', sans-serif;
+  margin: 0% 40% 10% 10%;
+}
 #beige-block {
-  background-color: #cccbaa;
-  padding: 4rem 1rem 4rem 1rem;
+  /* background-color: #cccbaa; */
+  background-color: #d6d6c2;
+  padding: 5% 4% 5% 2%;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   box-shadow: 5px 5px 15px rgb(161, 161, 161);
   width: 100vw;
+}
+
+#wrkflows {
+  padding: 15% 4% 3% 2%;
+}
+#app-scripts {
+  /* background-color: #cccbaa; */
+  background-color: #d6d6c2;
+  padding: 15% 4% 3% 2%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px rgb(161, 161, 161);
+  width: 100vw;
+  font-family: 'DM Serif Display', serif;
 }
 .photo-quote {
   margin-left: 50px;
@@ -109,14 +130,19 @@ strong {
   margin-bottom: 20px;
 }
 .mePic {
-  height: 40vh;
+  height: 35vh;
   border-radius: 3%;
   box-shadow: 5px 5px 15px rgb(97, 97, 97);
+}
+.scriptPic {
+  height: 35vh;
+  width: 50%;
+  margin: 2.5% 5% 0% 10%;
 }
 
 .welcome-quote {
   flex-direction: column;
-  font-size: 11pt;
+  font-size: 8pt;
   color: #7a7e3c;
   line-height: 1.5;
   text-align: center;
@@ -128,7 +154,7 @@ strong {
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  margin-top: 100px;
+  margin-top: 190px;
 }
 .project-sec strong {
   margin-bottom: 100px;
@@ -145,7 +171,8 @@ strong {
   display: flex;
   align-items: center;
   padding: 1.75%;
-  background-color: #cccbaa;
+  /* background-color: #cccbaa; */
+  background-color: #d6d6c2;
   width: 100vw;
 }
 
@@ -172,10 +199,14 @@ strong {
   margin-left: 30%;
   margin-bottom: 10%;
 }
+.wrkflow-sec strong {
+  margin-bottom: 100px;
+}
 
 .Footer_Box {
   display: flex;
-  background: #c3c2a1;
+  /* background: #c3c2a1; */
+  background-color: #d6d6c2;
   justify-content: space-between;
   left: 0;
   right: 0px;
@@ -183,7 +214,6 @@ strong {
 }
 
 .contact ul {
-  margin-bottom: 5%;
   list-style-type: none;
   justify-content: center;
   text-align: center;
@@ -201,6 +231,13 @@ strong {
 .contact {
   line-height: 60px;
 }
+
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+
 @media screen and (max-width: 950px) {
   #hero-block {
     background-color: #cccbaa;
@@ -222,6 +259,9 @@ strong {
     font-size: 10pt;
     text-align: center;
   }
+  strong {
+    font-size: 30px;
+  }
   .header-img {
     background-image: linear-gradient(
         rgba(238, 235, 235, 0.6),
@@ -238,6 +278,9 @@ strong {
     flex-direction: column-reverse;
     padding-right: 50px;
     width: 100vw;
+  }
+  #app-scripts {
+    padding-top: 5px;
   }
   .mePic {
     height: 30vh;

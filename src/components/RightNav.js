@@ -7,17 +7,27 @@ const RightNav = () => {
       <ul className='burger-menu'>
         <li>
           <a href='#hero-block' className='nav-link'>
-            ABOUT
+            about
+          </a>
+        </li>
+        <li>
+          <a href='#wrkflows' className='nav-link'>
+            workflows
+          </a>
+        </li>
+        <li>
+          <a href='#app-scripts' className='nav-link'>
+            appScripts
           </a>
         </li>
         <li>
           <a href='#projects' className='nav-link'>
-            PROJECTS
+            development
           </a>
         </li>
         <li>
           <a href='#beige-block' className='nav-link'>
-            CONTACT ME
+            contact
           </a>
         </li>
       </ul>

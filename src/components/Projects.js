@@ -1,33 +1,32 @@
 import React from 'react';
 
-const Projects = ({ squareLogo, weather, quotes, meals }) => {
+const Projects = ({ squareLogo, weather, quotes, profapp }) => {
   return (
     <>
       <div id='projects'>
         <p>
-          <strong className='project-sec'>Projects </strong> <br />
-          Below are my a few completed projects I have worked on solo as well as
-          my capstone project created with my peers at Fullstack.
+          <strong className='project-sec'>Web Development Projects </strong>
+          <br />
         </p>
         <div className='project-card-one'>
           <div className='project-image'>
             <img src={squareLogo} className='card-block' alt='deco' />
             <a
-              href='https://whatstheweather-mycity.netlify.app/'
+              href='https://sean-balog.netlify.app/'
               target='_blank'
               rel='noopener noreferrer'
               className='project-app'
               id='proj-photo'
             >
-              <img src={weather} alt='projectthumb' />
+              <img src={profapp} alt='projectthumb' />
             </a>
           </div>
           <div className='project-info'>
-            <h3>What's the weather</h3> <br />
-            Deployed Aug 2022 - Using Axios to make calls to the OpenWeather
-            API, users can search for cities across the globe and current
-            weather information is displayed in this mobile responsive app.
-            <br /> <br /> technology used: JavaScript, React.js, REST API
+            <h3>Portfolio Site</h3> <br />
+            Deployed April 2024 - Self authored professonal portfolio app
+            showcasing technical and creative skills. Color palette and theme
+            inspired by a Portugese Azulejo tiled building in Lagos.
+            <br /> <br /> technology used: React.js
           </div>
         </div>
 
@@ -59,22 +58,21 @@ const Projects = ({ squareLogo, weather, quotes, meals }) => {
             <img src={squareLogo} className='card-block' alt='deco' />
             <br />
             <a
-              href='http://sleepy-citadel-97219.herokuapp.com/'
+              href='https://whatstheweather-mycity.netlify.app/'
               target='_blank'
               rel='noopener noreferrer'
               className='project-app'
               id='proj-photo'
             >
-              <img src={meals} alt='projectthumb' />
+              <img src={weather} alt='projectthumb' />
             </a>
           </div>
           <div className='project-info'>
-            <h3>Meals and Deals</h3> <br />
-            Deployed May 2022 - A meal delivery e-commerce site peer programmed
-            by a team of 3. An original database was created through PostgreSQL
-            with the front-end connected through Express.js. The singe page
-            front-end was designed with React.js.
-            <br /> <br /> technology used: React.js, Express.js, PostgreSQL
+            <h3>What's the weather</h3> <br />
+            Deployed Aug 2022 - Using Axios to make calls to the OpenWeather
+            API, users can search for cities across the globe and current
+            weather information is displayed in this mobile responsive app.
+            <br /> <br /> technology used: JavaScript, React.js, REST API
           </div>
         </div>
       </div>

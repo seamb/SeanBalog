@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className='title'>
         <div className='name'>sean balog</div>
         <div className='profess'>
-          technologist | CRM Super Admin | Sales Enablement Specialist
+          Technologist | CRM Super Admin <br></br> Sales Enablement Specialist
         </div>
       </div>
       <ul className='nav-menu'>
@@ -17,8 +17,18 @@ const NavBar = () => {
           </a>
         </li>
         <li>
+          <a href='#wrkflows' className='nav-link'>
+            CRM WORKFLOWS
+          </a>
+        </li>
+        <li>
+          <a href='#app-scripts' className='nav-link'>
+            APP SCRIPTS
+          </a>
+        </li>
+        <li>
           <a href='#projects' className='nav-link'>
-            PROJECTS
+            WEB PROJECTS
           </a>
         </li>
         <li>
