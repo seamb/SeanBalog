@@ -14,8 +14,9 @@ const Workflows = ({ leadroute }) => {
             <div>
               Use case:
               <br /> Leads are distributed to SDRs based on the vertical they
-              work in and their region. Esisting contacts should not be
-              reassigned but their existing contact owner should be notified.
+              work in and their region. Existing contacts should not be
+              reassigned but their owner should be notified of their
+              reconversion.
               <br />
               <br />
               Solution:
