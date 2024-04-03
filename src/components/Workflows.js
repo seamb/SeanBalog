@@ -21,11 +21,12 @@ const Workflows = ({ leadroute }) => {
               <br />
               Solution:
               <br />
-              When new leads complete an online form, their contact record
-              enrolls. If the contact is already assigned an owner a
-              reconversion email is sent to the contact's owner. Otherwise the
-              contact is assigned an SDR based on the vertical and region
-              selected on the form.
+              - When leads complete the online form their contact record enrolls
+              in the workflow. <br />
+              - If the contact is already assigned an owner a reconversion email
+              is sent notifying the owner of form completion. <br /> - Otherwise
+              the contact is assigned an SDR based on the vertical and region
+              they selected on the form.
               <br />
             </div>
           </div>
