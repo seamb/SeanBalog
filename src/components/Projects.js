@@ -23,9 +23,9 @@ const Projects = ({ squareLogo, weather, quotes, profapp }) => {
           </div>
           <div className='project-info'>
             <h3>Portfolio Site</h3> <br />
-            Deployed April 2024 - Self authored professonal portfolio app
+            Deployed April 2024 - Self authored professional portfolio app
             showcasing technical and creative skills. Color palette and theme
-            inspired by a Portugese Azulejo tiled building in Lagos.
+            inspired by a Portugues Azulejo tiled building in Lago PT.
             <br /> <br /> technology used: React.js
           </div>
         </div>
