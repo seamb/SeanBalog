@@ -9,10 +9,10 @@ const Hero = ({ selfsq, teckstack }) => {
             As a HubSpot CRM Admin with a keen eye for detail and a knack for
             automation, Sean has a proven track record of streamlining processes
             and driving efficiency within sales, marketing, and support teams.
-            With certifications in Integrating With HubSpot I: Foundations and
-            completion of the HubSpot Super Admin Bootcamp, Sean stays at the
-            forefront of industry trends and advancements, ensuring that her
-            skills remain sharp and relevant.
+            With certifications in Integrating With HubSpot I: Foundations,
+            HubSpot Marketing Software, and completion of the HubSpot Super
+            Admin Bootcamp, Sean stays at the forefront of industry trends and
+            advancements, ensuring that her skills remain sharp and relevant.
             <br />
             <br />
             A seasoned professional with a passion for both innovation in
